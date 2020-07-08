@@ -76,3 +76,11 @@ D:\大学\安天——恶意代码分析\APP\1TreeForest\AntiVirusApp\AntiVirusA
 D:\大学\安天——恶意代码分析\APP\1TreeForest\AntiVirusApp\AntiVirusApp\obj\Debug\Pages\Depretion.baml
 D:\大学\安天——恶意代码分析\APP\1TreeForest\AntiVirusApp\AntiVirusApp\obj\Debug\Pages\electric.g.cs
 D:\大学\安天——恶意代码分析\APP\1TreeForest\AntiVirusApp\AntiVirusApp\obj\Debug\Pages\electric.baml
+D:\大学\安天——恶意代码分析\APP\1TreeForest\AntiVirusApp\AntiVirusApp\obj\Debug\Pages\fakewifi.g.cs
+D:\大学\安天——恶意代码分析\APP\1TreeForest\AntiVirusApp\AntiVirusApp\obj\Debug\Pages\fish.g.cs
+D:\大学\安天——恶意代码分析\APP\1TreeForest\AntiVirusApp\AntiVirusApp\obj\Debug\Pages\picture.g.cs
+D:\大学\安天——恶意代码分析\APP\1TreeForest\AntiVirusApp\AntiVirusApp\obj\Debug\Pages\Protectmethods.g.cs
+D:\大学\安天——恶意代码分析\APP\1TreeForest\AntiVirusApp\AntiVirusApp\obj\Debug\Pages\fakewifi.baml
+D:\大学\安天——恶意代码分析\APP\1TreeForest\AntiVirusApp\AntiVirusApp\obj\Debug\Pages\fish.baml
+D:\大学\安天——恶意代码分析\APP\1TreeForest\AntiVirusApp\AntiVirusApp\obj\Debug\Pages\picture.baml
+D:\大学\安天——恶意代码分析\APP\1TreeForest\AntiVirusApp\AntiVirusApp\obj\Debug\Pages\Protectmethods.baml
