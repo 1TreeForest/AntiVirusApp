@@ -13,11 +13,9 @@
         <TextBlock  FontSize="22"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"
-                   Width="780"
+                   Width="800"
                    Height="430"
                    ToolTip="https://cn.bing.com"
-                   TextWrapping="Wrap" Margin="10">
-            <Run Text="       "/><Run Text="黑客利用人们节省流量费的心理来构建假冒热点窃取用户敏感信息。一旦连接到假WIFI，IC、IP、IQ卡，就可能统统被人盗密码。"/>
-        </TextBlock>
+                   TextWrapping="Wrap" Margin="0,10"><Run Text="       "/><Run Text="    "/><Run Text="黑客利用人们节省流量费的心理来构建假冒热点窃取用户敏感信息。一旦连接到假WIFI，IC、IP、IQ卡，就可能统统被人盗密码。"/></TextBlock>
     </Grid>
 </Page>

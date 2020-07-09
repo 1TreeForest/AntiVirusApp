@@ -20,20 +20,33 @@ namespace AntiVirusApp.Pages
     /// </summary>
     public partial class SecurityShare : Page
     {
+        private Dictionary<string, Uri> views = new Dictionary<string, Uri>(); //包含Depretion页面
         public SecurityShare()
         {
             InitializeComponent();
+            views.Add("Depretion", new Uri("pages/Depretion.xaml", UriKind.Relative));
+            views.Add("Knowledge_WhatS", new Uri("pages/Knowledge_WhatS.xaml", UriKind.Relative));
+            views.Add("Protectmethods", new Uri("pages/Protectmethods.xaml", UriKind.Relative));
         }
 
         private void Frame_Navigated(object sender, NavigationEventArgs e)
         {
 
         }
-        private void NaviButton_Click(object sender, RoutedEventArgs e) //重构1：利用Tag属性整合了所有导航页
+        private void NaviButton_Depretion_Click(object sender, RoutedEventArgs e) //重构1：利用Tag属性整合了所有导航页
         {
-            Button btn = sender as Button;
-            this.frame.Navigate(new Uri("pages/" + btn.Tag.ToString() + ".xaml", UriKind.Relative));
+            Depretion p = new Depretion();
+            this.NavigationService.Navigate(p, DateTime.Now);
         }
-
+        private void NaviButton_Know_Click(object sender, RoutedEventArgs e) //重构1：利用Tag属性整合了所有导航页
+        {
+            Knowledge_WhatS p = new Knowledge_WhatS();
+            this.NavigationService.Navigate(p, DateTime.Now);
+        }
+        private void NaviButton_Pro_Click(object sender, RoutedEventArgs e) //重构1：利用Tag属性整合了所有导航页
+        {
+            Protectmethods p = new Protectmethods();
+            this.NavigationService.Navigate(p, DateTime.Now);
+        }
     }
 }
