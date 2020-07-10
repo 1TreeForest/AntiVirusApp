@@ -10,7 +10,7 @@
 
     <Grid>
         <Frame Name="frame" NavigationUIVisibility="Hidden" Navigated="Frame_Navigated"></Frame>
-        <TextBlock  FontSize="20"
+        <TextBlock  FontSize="19"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"
                    Width="680"
