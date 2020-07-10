@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:AntiVirusApp.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="450" d:DesignWidth="700"
       Title="fish">
 
     <Grid>
@@ -13,7 +13,7 @@
         <TextBlock  FontSize="22"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"
-                   Width="780"
+                   Width="680"
                    Height="430"
                    ToolTip="https://cn.bing.com"
                    TextWrapping="Wrap" Margin="10">

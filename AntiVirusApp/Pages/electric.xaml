@@ -5,19 +5,20 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:AntiVirusApp.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="450" d:DesignWidth="700"
       Title="electric">
 
     <Grid>
-        <Frame Name="frame" NavigationUIVisibility="Hidden" Navigated="Frame_Navigated"></Frame>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Frame Name="frame" NavigationUIVisibility="Hidden" Navigated="Frame_Navigated" Grid.ColumnSpan="2"></Frame>
         <TextBlock  FontSize="22"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"
-                   Width="780"
-                   Height="430"
-                   ToolTip="https://cn.bing.com"
-                   TextWrapping="Wrap" Margin="10">
-            <Run Text="       "/><Run Text="电信诈骗是指犯罪分子通过电话、短信或网络方式，编造虚假信息，设置骗局，对受害人实施远程、非接触式诈骗，诱使受害人给犯罪分子打款或转账的犯罪行为。犯罪分子往往伪装成政府相关部门、银行、电信、电视栏目等机构的工作人员，或虚构一些紧急情况、冒充领导等形式来骗取。"/>
-        </TextBlock>
+                   Width="680"
+                   Height="440"
+                   ToolTip="https://cn.bing.com" Margin="10,0,10,10" Grid.Column="1" TextWrapping="Wrap" TextTrimming="CharacterEllipsis"><Run Text="       "/><Run Text="电信诈骗是指犯罪分子通过电话、短信或网络方式，编造虚假信息，设置骗局，对受害人实施远程、非接触式诈骗，诱使受害人给犯罪分子打款或转账的犯罪行为。犯罪分子往往伪装成政府相关部门、银行、电信、电视栏目等机构的工作人员，或虚构一些紧急情况、冒充领导等形式来骗取。"/></TextBlock>
     </Grid>
 </Page>
