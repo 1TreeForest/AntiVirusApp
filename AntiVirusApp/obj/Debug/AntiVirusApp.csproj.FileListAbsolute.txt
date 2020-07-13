@@ -135,3 +135,5 @@ C:\Users\Qing_YoO\Documents\GitHub\gui\AntiVirusApp\AntiVirusApp\obj\Debug\AntiV
 C:\Users\Qing_YoO\Documents\GitHub\gui\AntiVirusApp\AntiVirusApp\obj\Debug\AntiVirusApp.csproj.CoreCompileInputs.cache
 C:\Users\Qing_YoO\Documents\GitHub\gui\AntiVirusApp\AntiVirusApp\obj\Debug\AntiVirusApp.exe
 C:\Users\Qing_YoO\Documents\GitHub\gui\AntiVirusApp\AntiVirusApp\obj\Debug\AntiVirusApp.pdb
+C:\Users\Qing_YoO\Documents\GitHub\gui\AntiVirusApp\AntiVirusApp\obj\Debug\Pages\Result.g.cs
+C:\Users\Qing_YoO\Documents\GitHub\gui\AntiVirusApp\AntiVirusApp\obj\Debug\Pages\Result.baml

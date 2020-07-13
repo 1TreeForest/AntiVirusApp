@@ -84,6 +84,9 @@
     <Compile Include="Pages\Protectmethods.xaml.cs">
       <DependentUpon>Protectmethods.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Result.xaml.cs">
+      <DependentUpon>Result.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\SecurityShare.xaml.cs">
       <DependentUpon>SecurityShare.xaml</DependentUpon>
     </Compile>
@@ -137,6 +140,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Protectmethods.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Result.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

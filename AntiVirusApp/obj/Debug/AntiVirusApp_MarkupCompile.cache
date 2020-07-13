@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\大学\安天——恶意代码分析\APP\1TreeForest\AntiVirusApp\AntiVirusApp\obj\Debug\
+C:\Users\Qing_YoO\Documents\GitHub\gui\AntiVirusApp\AntiVirusApp\obj\Debug\
 AntiVirusApp
 none
 false
 DEBUG;TRACE
-D:\大学\安天——恶意代码分析\APP\1TreeForest\AntiVirusApp\AntiVirusApp\App.xaml
-191288328620
+C:\Users\Qing_YoO\Documents\GitHub\gui\AntiVirusApp\AntiVirusApp\App.xaml
+20-1081057183
 
-2618515770
+271626294383
 131569487696
-FolderSelector.xaml;MainWindow.xaml;Pages\electric.xaml;Pages\fakewifi.xaml;Pages\fish.xaml;Pages\Home.xaml;Pages\Knowledge_WhatS.xaml;Pages\Others.xaml;Pages\Depretion.xaml;Pages\picture.xaml;Pages\Protectmethods.xaml;Pages\SecurityShare.xaml;Pages\USBScan.xaml;Pages\CustomScan.xaml;Pages\FullScan.xaml;Pages\QuickScan.xaml;Pages\Progressing.xaml;Pages\StoppedPage.xaml;StylesDictionary.xaml;
+FolderSelector.xaml;MainWindow.xaml;Pages\electric.xaml;Pages\fakewifi.xaml;Pages\fish.xaml;Pages\Home.xaml;Pages\Knowledge_WhatS.xaml;Pages\Others.xaml;Pages\Depretion.xaml;Pages\picture.xaml;Pages\Protectmethods.xaml;Pages\Result.xaml;Pages\SecurityShare.xaml;Pages\USBScan.xaml;Pages\CustomScan.xaml;Pages\FullScan.xaml;Pages\QuickScan.xaml;Pages\Progressing.xaml;Pages\StoppedPage.xaml;StylesDictionary.xaml;
 
 False
 

@@ -12,6 +12,6 @@
         <ProgressBar Name="progressBar1" HorizontalAlignment="Left" Height="25" Margin="78,229,0,0" VerticalAlignment="Top" Width="534" Maximum="100"/>
         <Button Style="{DynamicResource NaviStyle}" Margin="272,62,303,328" Height="60" Click="Stop_Scan_Click">停止扫描</Button>
         <Button Style="{DynamicResource NaviStyle}" Margin="78,62,500,328" Height="60" Click="Pause_Scan_Click">暂停扫描</Button>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="78,190,0,0" TextWrapping="Wrap" Text="扫描中的文件" VerticalAlignment="Top" Width="534" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="78,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="534" FontSize="16"><Run Text="扫描中"/><Run Text="，请稍后……"/></TextBlock>
     </Grid>
 </Page>

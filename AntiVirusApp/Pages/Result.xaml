@@ -1,0 +1,17 @@
+﻿<Page x:Class="AntiVirusApp.Pages.Result"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AntiVirusApp.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="700"
+      Title="Result">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="24,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="36" Width="399" FontSize="22"><Run Text="扫描结果"/><Run Text="如下，请选择是否删除"/><Run Text="风险"/><Run Text="文件"/></TextBlock>
+        <ListBox HorizontalAlignment="Left" Height="337" Margin="24,89,0,0" VerticalAlignment="Top" Width="649" SelectionChanged="ListBox_SelectionChanged" Background="{x:Null}"/>
+        <Button Style="{DynamicResource NaviStyle}" Content="删除" HorizontalAlignment="Left" Margin="456,21,0,0" VerticalAlignment="Top" Width="100" Click="DeleteButton_Click" Height="47"/>
+        <Button Style="{DynamicResource NaviStyle}" Content="取消" HorizontalAlignment="Left" Margin="573,19,0,0" VerticalAlignment="Top" Width="100" Click="CancelButton_Click" Height="47"/>
+    </Grid>
+</Page>
