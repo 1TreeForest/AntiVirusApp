@@ -9,7 +9,7 @@
       Title="Home">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Height="38" Margin="237,186,0,0" TextWrapping="Wrap" Text="主页，介绍软件" VerticalAlignment="Top" Width="233" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Height="237" Margin="142,154,0,0" TextWrapping="Wrap" Text="本软件意在实现常见计算机威胁项的扫描与清除功能，同时提供了多种可选的扫描方式。此外，提供部分计算机安全防范知识供用户参考。" VerticalAlignment="Top" Width="478" FontSize="24"/>
 
     </Grid>
 </Page>

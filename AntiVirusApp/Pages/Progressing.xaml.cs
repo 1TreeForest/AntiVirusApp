@@ -32,6 +32,7 @@ namespace AntiVirusApp.Pages
             progress = new Progress<int>();
             progress.ProgressChanged += Progress_ProgressChanged;
             Start();
+
         }
         //进度变化触发事件
         private void Progress_ProgressChanged(object sender, int e)
@@ -71,8 +72,7 @@ namespace AntiVirusApp.Pages
         {
             cts.Cancel(); //取消操作
             progressBar1.Value = 0;
-            cts = null;
-            StoppedPage p = new StoppedPage();
+            Home p = new Home();
             this.NavigationService.Navigate(p, DateTime.Now);
         }
 
